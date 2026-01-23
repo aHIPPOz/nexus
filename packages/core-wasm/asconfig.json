@@ -1,0 +1,11 @@
+{
+  "extends": "assemblyscript/std/assembly.json",
+  "entries": [
+    "assembly/main.ts"
+  ],
+  "options": {
+    "outFile": "../build/nexus.wasm",
+    "optimize": true,
+    "sourceMap": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@nexus/runtime-js",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/nexus.ts",
+  "exports": {
+    ".": "./src/nexus.ts"
+  },
+  "dependencies": {}
+}

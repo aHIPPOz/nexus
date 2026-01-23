@@ -1,0 +1,9 @@
+{
+  "name": "nexus",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/rust": {},
+    "ghcr.io/devcontainers/features/wasmtime": {}
+  },
+  "postCreateCommand": "npm install -g assemblyscript"
+}
