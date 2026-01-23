@@ -1,1 +1,1 @@
-export { NexusConsole } from "./Console";
+export { NexusConsole } from "./NexusConsole";

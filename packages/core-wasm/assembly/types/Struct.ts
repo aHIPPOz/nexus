@@ -1,4 +1,4 @@
-export class Struct {
+export declare class Struct {
   size: i32;
   ptr: i32;
 
