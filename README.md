@@ -11,15 +11,10 @@ Meta-runtime WASM-first unifiant JS, WASIX, POSIX, WASI sous une ABI commune.
 
 ## Structure
 
-Voir `/packages` pour les modules principaux.
+Voir `/backend` pour tout ce qui est compilé. (assemblyscript→wasm=>étend javascript)
+Voir `/fontend` pour types (expose des types statiques et dynamique) runtimes (lib main for browser and local runtime like deno and bun) and core (pour le js qui étend wasm via glue-like et qui donne ABI wasix à tout le monde)
 
 ## Build rapide
-
-```sh
-cd packages/core-wasm
-npm install
-npm run build
-```
 
 ## Exemple
 
